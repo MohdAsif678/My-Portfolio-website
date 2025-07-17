@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -177,8 +177,8 @@ img {
     margin-right: var(--mb-1-5);
   }
   .button {
-    padding: .7rem 1.2rem;
-    margin-top: .5rem;
+    padding: 0.7rem 1.2rem;
+    margin-top: 0.5rem;
   }
   .button__icon {
     width: 22px;
@@ -188,19 +188,17 @@ img {
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-  .section{
+  .section {
     padding: 2rem 0 4rem;
   }
-  
 }
 @media screen and (max-width: 576px) {
-
 }
 
 /* for small devices */
 @media screen and (max-width: 350px) {
-  :root{
-    --big-font-size:2.25rem;
+  :root {
+    --big-font-size: 2.25rem;
   }
 
   .container {
@@ -208,4 +206,3 @@ img {
     margin-right: var(--mb-1);
   }
 }
-
