@@ -81,7 +81,7 @@ const Contact = () => {
               <label className="contact_form-tag">Email</label>
               <input
                 type="email"
-                name="name"
+                name="email"
                 className="contact_form-input"
                 placeholder="enter your email"
                 required
