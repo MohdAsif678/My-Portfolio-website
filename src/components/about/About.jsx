@@ -17,7 +17,13 @@ const About = () => {
             <Info/>
 
             <p className="about_description">
-              Frontend developer, I create web pages with UI/UX user interface,crafting user-centric, responsive web applications and enhancing digital experiences through innovative solutions.
+              Full Stack Java Developer with one year of hands-on internship experience building and maintaining 
+              web applications. Skilled in developing scalable backend services using Java and Spring Boot, 
+              along with creating responsive user interfaces using modern frontend technologies.
+               Experienced in working with REST APIs, databases, and version control systems. Strong 
+               understanding of core programming concepts, problem-solving, and collaborative development 
+               practices, with a focus on writing clean, efficient, and maintainable code.
+
             </p>
             <a href={CV} className="button button-flex">Download CV
               <svg

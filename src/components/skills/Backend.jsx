@@ -9,21 +9,21 @@ const Backend = () => {
           <div className="skills_data">
             <i class="uil uil-check-circle"></i>
             <div>
-              <h3 className="skills_name">Node Js</h3>
-              <span className="skills_level">Basic</span>
+              <h3 className="skills_name">Java</h3>
+              <span className="skills_level">Advanced</span>
             </div>
           </div>
           <div className="skills_data">
             <i class="uil uil-check-circle"></i>
             <div>
-              <h3 className="skills_name">Express Js</h3>
-              <span className="skills_level">Basic</span>
+              <h3 className="skills_name">SpringBoot</h3>
+              <span className="skills_level">Intermediate</span>
             </div>
           </div>
           <div className="skills_data">
             <i class="uil uil-check-circle"></i>
             <div>
-              <h3 className="skills_name">MongoDB</h3>
+              <h3 className="skills_name">Servlet+Jsp</h3>
               <span className="skills_level">Intermediate</span>
             </div>
           </div>
@@ -32,15 +32,15 @@ const Backend = () => {
           <div className="skills_data">
             <i class="uil uil-check-circle"></i>
             <div>
-              <h3 className="skills_name">Java</h3>
+              <h3 className="skills_name">REST APIs</h3>
               <span className="skills_level">Basic</span>
             </div>
           </div>
           <div className="skills_data">
             <i class="uil uil-check-circle"></i>
             <div>
-              <h3 className="skills_name">Python</h3>
-              <span className="skills_level">Basic</span>
+              <h3 className="skills_name">Oracle</h3>
+              <span className="skills_level">Intermediate</span>
             </div>
           </div>
           <div className="skills_data">

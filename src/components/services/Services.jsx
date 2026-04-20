@@ -17,7 +17,7 @@ const Services = () => {
           <div>
             <i className="uil uil-web-grid services_icon"></i>
             <h3 className="services_title">
-              Frontend <br />
+              Java Fullstack <br />
               Developer
             </h3>
           </div>
@@ -36,7 +36,7 @@ const Services = () => {
                 className="uil uil-times services_modal-close"
               ></i>
 
-              <h3 className="services_modal-title">Frontend Developer</h3>
+              <h3 className="services_modal-title">Java Fullstack Developer</h3>
               <p className="services_modal-description">
                 Building responsive and high-performance websites.
               </p>

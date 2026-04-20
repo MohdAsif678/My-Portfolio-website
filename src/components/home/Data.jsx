@@ -55,9 +55,9 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home_subtitle">Front-End Developer</h3>
+      <h3 className="home_subtitle">Java FullStack Developer</h3>
       <p className="home_description">
-        I'm a Front-End Developer based in Uttrakhand ,and I'm Passionate about crafting responsive web applications.
+        I'm a Java FullStack Developer based in Noida ,and I'm Passionate about crafting responsive web applications.
       </p>
       <a href="#contact" className="button button-flex">
         Say Hello

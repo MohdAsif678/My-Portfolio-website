@@ -3,41 +3,35 @@ import { projectsNav, projectsData } from "./Data";
 import WorksItems from "./WorksItems";
 
 const Works = () => {
-  const [item, setItem] = useState({ name: "All" });
-  const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
+  const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    if (item.name === "All") {
-      setProjects(projectsData);
-    }
-    else {
-      const newProjects = projectsData.filter((projects) => {
-        return projects.category === item.name;
-      });
-      setProjects(newProjects);
-    }
-  }, [item]);
+    const category = projectsNav[active].name;
 
-  const handleClick =(e,index)=>{
-    setItem({name: e.target.textContent})
-    setActive(index)
+    const filteredProjects = projectsData.filter(
+      (project) => project.category === category
+    );
+
+    setProjects(filteredProjects);
+  }, [active]);
+
+  const handleClick = (index) => {
+    setActive(index);
   };
 
   return (
     <div>
       <div className="work_filters">
         {projectsNav.map((item, index) => {
-          return(
+          return (
             <span
-            onClick={(e) => {
-              handleClick(e, index);
-            }}
-            className={`${active === index ? 'active_work': '' } work_item`}
-            key={index}
-          >
-            {item.name}
-          </span>
+              onClick={() => handleClick(index)}
+              className={`${active === index ? "active_work" : ""} work_item`}
+              key={index}
+            >
+              {item.name}
+            </span>
           );
         })}
       </div>
