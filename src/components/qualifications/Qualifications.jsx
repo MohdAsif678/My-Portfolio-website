@@ -105,7 +105,7 @@ const Qualifications = () => {
             <div className="qualification_data">
               <div>
                 <h3 className="qualification_title">Java FullStack Developer</h3>
-                <span className="qualification_subtitle">AppSquadz pvt ltd </span>
+                <span className="qualification_subtitle">AppSquadz Software pvt ltd </span>
                 <div className="qualification_calender">
                   <i className="uil uil-calender-alt"></i>Persuing
                 </div>

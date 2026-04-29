@@ -6,11 +6,12 @@ import Work5 from "../../assets/work5.png";
 import Work7 from "../../assets/Work7.png";
 import Work8 from "../../assets/Work8.png";
 import Work9 from "../../assets/Work9.png";
+import Work6 from "../../assets/Work6.jpeg";
 export const projectsData = [
   {
     id: 1,
-    image: Work2,
-    title: "ERP(School Managment System)",
+    image: Work6,
+    title: "NamasteMart(Shopping website)",
     category: "FullStack",
     link:""
   },
